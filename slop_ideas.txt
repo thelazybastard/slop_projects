@@ -1,0 +1,29 @@
+Beginner
+
+Guess the number — random number gen, user input, loops
+Unit converter — Celsius/Fahrenheit, km/miles, etc.
+Calculator — parse math expressions from args
+Word counter — read a file, count words/lines/chars (like wc)
+
+Intermediate
+
+To-do list — CRUD operations, save/load from a JSON file
+File renamer — batch rename files with patterns/regex
+Password generator — flags for length, symbols, digits
+Caesar/ROT13 cipher — encrypt/decrypt text from stdin or file
+HTTP status checker — take a list of URLs, report status codes (uses reqwest)
+
+Intermediate–Advanced
+
+Markdown to HTML converter — string parsing, file I/O
+grep clone (rgrep) — recursive file search, regex matching (uses regex crate)
+CSV processor — filter/sort/transform columns (uses csv crate)
+Port scanner — async TCP connections, threading (uses tokio)
+JSON pretty-printer / query tool — like a mini jq (uses serde_json)
+
+Advanced
+
+Shell clone — parse and execute commands, pipes, built-ins like cd
+Key-value store — persist data to disk, a mini Redis/SQLite
+HTTP server from scratch — raw TCP, parse HTTP/1.1 manually
+ls / tree clone — directory walking, colorized output, flags
